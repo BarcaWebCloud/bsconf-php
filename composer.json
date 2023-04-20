@@ -1,0 +1,35 @@
+{
+    "name": "bwc/bsconf",
+    "description": "BSconf is perhaps the best PHP library for performing data analysis on computing devices and providing PHP web applications. It is used for computer forensics, AI, data center, mobile and web applications. Developers can troubleshoot issues when looking up certain information about the target device.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BWC\\BSconf\\": "src/BSconf"
+        },
+        "files": [
+          "src/BSconf/Hello.php"
+        ]
+    },
+    "extra": {
+     "laravel": {
+        "providers": [
+          "BSconf\\HelloServiceProvider"
+        ]
+      }
+    },
+    "authors": [
+      {
+        "name": "Aníbal Barca",
+        "email": "anibalbs@barca.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=7.1.3",
+      "illuminate/support": "5.6.* || 5.7.* || 5.8.* || 6.0.*"
+    },
+    "require-dev": {
+      "orchestra/testbench": "^3.8"
+    }
+}
