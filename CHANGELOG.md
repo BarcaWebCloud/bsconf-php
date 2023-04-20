@@ -14,12 +14,12 @@ This is the latest version introduces the use of the module and its features.
 
 ### Features
 
-- [#1](https://github.com/BarcaWebCloud/bscan/pull/30): Init project. Gratitude @ahsouza!
+- [#1](https://github.com/BarcaWebCloud/bsconf-php/pull/1): Init project. Gratitude @ahsouza!
 
 
 ### Release Notes
 
-Add features for **Windows** platform:
+Add features:
 
 
 - **Init project**
