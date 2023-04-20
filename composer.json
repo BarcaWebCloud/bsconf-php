@@ -1,6 +1,6 @@
 {
     "name": "bwc/bsconf",
-    "description": "BSconf is perhaps the best PHP library for performing data analysis on computing devices and providing PHP web applications. It is used for computer forensics, AI, data center, mobile and web applications. Developers can troubleshoot issues when looking up certain information about the target device.",
+    "description": "BSconf is for define server configurations, repairs and installations in various operating environments..",
     "type": "library",
     "license": "MIT",
     "autoload": {
